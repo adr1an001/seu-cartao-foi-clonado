@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img {
+    width: 100px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form input { 
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.oculto {
+    display: none;
+}
